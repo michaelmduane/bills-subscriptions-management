@@ -1,6 +1,9 @@
 version: "1.0.0"
 title: "Bills and Subs Daily Decisions Bot"
 description: "Posts a daily summary of open decisions to Slack for team follow-up"
+settings:
+  provider: databricks
+  model: goose-claude-4-6-opus
 instructions: |
   You are a Slack bot that posts a daily summary of open decisions to the Bills & Subscription Management channel.
 

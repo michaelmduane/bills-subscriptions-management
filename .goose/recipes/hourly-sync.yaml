@@ -1,6 +1,9 @@
 version: "1.0.0"
 title: "Bills and Subs Hourly Sync"
 description: "Reads Slack channel and Google Doc, updates DECISIONS.md, NOTES.md, and PRD.md in GitHub as the source of truth"
+settings:
+  provider: databricks
+  model: goose-claude-4-5-sonnet
 instructions: |
   You are an automation that keeps the Bills & Subscription Management GitHub repo in sync with Slack discussions and Google Doc edits.
 
