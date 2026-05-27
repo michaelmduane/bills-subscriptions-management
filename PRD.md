@@ -18,6 +18,10 @@ tags: [cash-app-card, bills, subscriptions, recurring, knot, auto-reload, consol
 
 # Bills & Subscription Management PRD
 
+> **📂 This repo is the source of truth.** The readable Google Doc companion is here: [Cycle 2 - Bills & Subscription Management PRD](https://docs.google.com/document/d/1HFQI0EEDLRI-xPKDc_L2BPADH1731zPiKELZIw3t790/edit)
+>
+> GitHub is automatically updated from Slack and the Google Doc. If something conflicts, GitHub wins.
+
 ## TL;DR
 
 Build a bills and subscription management hub inside Cash App that gives Card customers a single place to see, consolidate, and manage all their recurring card-based payments. The feature uses Knot-powered card-switching to let customers move existing subscriptions and bills onto their Cash App Card with a few taps, and offers management actions (pause, cancel, change plan) directly inside the app. A new bill-specific auto-reload capability ensures customers always have enough funds to cover upcoming charges, reducing declines and building trust that Cash App is their primary account.
