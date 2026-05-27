@@ -26,7 +26,8 @@ instructions: |
 
   3. If there are NO open decisions, post: "No open decisions - Bills & Subscription Management is fully aligned."
 
-  4. Post the message using: sq agent-tools slack post-message --channel C0B6KN2RPLZ --text "[message]"
+  4. Post the message as Cycle Bot using curl:
+     curl -s -X POST https://slack.com/api/chat.postMessage -H "Authorization: Bearer $GOOSE_SLACK_BOT_TOKEN" -H "Content-Type: application/json" -d '{"channel": "C0B6KN2RPLZ", "text": "[message]"}'
 
   Rules:
   - Keep messages concise. One line per decision.

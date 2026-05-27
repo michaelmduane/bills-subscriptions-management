@@ -31,7 +31,10 @@ instructions: |
 
   5. If you identify something that needs a decision from a DRI reply, add it to DECISIONS.md as OPEN before posting the agenda.
 
-  6. Post the meeting agenda to the channel (NOT in a thread) using sq agent-tools slack post-message:
+  6. Post the meeting agenda to the channel (NOT in a thread) using curl with the bot token:
+     curl -s -X POST https://slack.com/api/chat.postMessage -H "Authorization: Bearer $GOOSE_SLACK_BOT_TOKEN" -H "Content-Type: application/json" -d '{"channel": "C0B6KN2RPLZ", "text": "[message]"}'
+
+     The message format:
 
   🤖 [Bills Bot]
 

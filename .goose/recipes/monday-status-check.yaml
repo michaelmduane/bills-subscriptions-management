@@ -13,7 +13,10 @@ instructions: |
   - PM: Trevor Luong (Slack ID: U058V1SRSJH)
   - Design Lead: Gustavo (Slack ID: U0A3HFR5006)
 
-  Post this message to the channel using sq agent-tools slack post-message:
+  Post this message to the channel using curl with the bot token:
+  curl -s -X POST https://slack.com/api/chat.postMessage -H "Authorization: Bearer $GOOSE_SLACK_BOT_TOKEN" -H "Content-Type: application/json" -d '{"channel": "C0B6KN2RPLZ", "text": "[message]"}'
+
+  The message to post:
 
   📊 *Monday Status Check — Bills & Subscription Management*
 
