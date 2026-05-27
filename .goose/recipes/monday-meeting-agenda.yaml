@@ -53,7 +53,6 @@ instructions: |
   7. If no DRI replies came in, still post the agenda with open decisions and standing items. Note which DRIs haven't replied.
 
   Rules:
-  - Always prefix with "🤖 [Bills Bot]" on its own line.
   - Keep it tight. One line per topic. No long descriptions.
   - Do not repeat the full DRI status updates — just extract the discussion-worthy topics.
   - If a DRI raises something that clearly needs a decision, add it to DECISIONS.md and flag it as new in the agenda.

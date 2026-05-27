@@ -15,8 +15,6 @@ instructions: |
 
   Post this message to the channel using sq agent-tools slack post-message:
 
-  🤖 [Bills Bot]
-
   📊 *Monday Status Check — Bills & Subscription Management*
 
   Hey team, dropping the weekly status check. Please reply in this thread with:
@@ -33,7 +31,7 @@ instructions: |
   _Replies are captured automatically. Meeting agenda will be posted at 8am ET based on your updates._
 
   Rules:
-  - Always prefix with "🤖 [Bills Bot]" on its own line.
   - Use the Slack user IDs for tagging (not display names).
   - Post once and exit. Do not wait for replies.
+  - The bot token (GOOSE_SLACK_BOT_TOKEN) handles identity — no prefix needed.
 prompt: "Post the Monday status check to the Bills & Subscription Management Slack channel now."

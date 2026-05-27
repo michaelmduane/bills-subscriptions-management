@@ -17,7 +17,7 @@ instructions: |
 
   1. Read /tmp/bills-subscriptions-prd/DECISIONS.md and identify all entries with Status OPEN.
 
-  2. If there are open decisions, format a Slack message. Always start the message with "🤖 [Bills Bot]" on its own line, then a blank line, then the content. This prefix makes it clear the message is automated. Format each decision with:
+  2. If there are open decisions, format a Slack message listing each with:
      - Decision title and date opened
      - One-line context summary
      - Who opened it
