@@ -29,21 +29,33 @@ instructions: |
   3. If there are unresponded @mentions, respond to each one in-thread using curl:
      curl -s -X POST https://slack.com/api/chat.postMessage -H "Authorization: Bearer $GOOSE_SLACK_BOT_TOKEN" -H "Content-Type: application/json" -d '{"channel": "C0B6KN2RPLZ", "thread_ts": "[message_ts]", "text": "[response]"}'
 
-  4. To formulate responses, you have access to:
-     - /tmp/bills-subscriptions-prd/DECISIONS.md — open and closed decisions
-     - /tmp/bills-subscriptions-prd/PRD.md — the full product requirements
-     - /tmp/bills-subscriptions-prd/docs/scope-options.md — cycle 2 scope options
-     - /tmp/bills-subscriptions-prd/docs/weekly-reviews.md — meeting agendas and status
-     - /tmp/bills-subscriptions-prd/NOTES.md — project notes
+  4. To formulate responses, read from the full project repo at /tmp/bills-subscriptions-prd/:
+     - DECISIONS.md — open and closed decisions (numbered DEC-NNN, with conversation history)
+     - PRD.md — full product requirements (problem, users, solution, risks, competitors, metrics)
+     - HOW-WE-WORK.md — project mechanics, automation, decision lifecycle, meeting rhythms
+     - NOTES.md — project notes synced from Slack
+     - README.md — project overview, team, key links
+     - docs/scope-options.md — Cycle 2 scope options (A/B/C with pros/cons/effort)
+     - docs/weekly-reviews.md — weekly execution review agendas and status record
+     - docs/delivery-review.md — retro structure and Cycle 2→3 handoff checklist
+     
+     You also have access to the Google Doc (ID: 1HFQI0EEDLRI-xPKDc_L2BPADH1731zPiKELZIw3t790) via sq agent-tools google-drive read.
+     Read whatever files are needed to answer the question fully. If the answer spans multiple files, read them all.
 
-  5. Types of questions you can answer:
+  5. Types of questions you can answer (non-exhaustive — answer anything you can from the docs):
      - "What are the open decisions?" → List from DECISIONS.md
      - "What's the status?" → Summarize from weekly-reviews.md
-     - "What's on the agenda?" → Pull from the current week's agenda
-     - "What's the scope?" → Summarize from scope-options.md
-     - "What are the risks?" → Pull from PRD.md risks section
+     - "What's on the agenda?" → Pull from the current week's agenda in weekly-reviews.md
+     - "What's the scope?" → Summarize from docs/scope-options.md
+     - "What are the risks?" → Pull from PRD.md risks section (14 risks with scores)
      - "When is [X]?" → Check timelines in PRD.md or weekly-reviews.md
-     - General project questions → Answer from PRD.md and project docs
+     - "Who owns [X]?" → Check README.md or PRD.md team section
+     - "How does [process] work?" → Pull from HOW-WE-WORK.md
+     - "What's the retro plan?" → Pull from docs/delivery-review.md
+     - "What's the problem we're solving?" → Pull from PRD.md problem statement
+     - "Who are the competitors?" → Pull from PRD.md competitor analysis
+     - "What metrics are we tracking?" → Pull from PRD.md definition of success
+     - General project questions → Read whatever files are relevant and synthesize
 
   6. If someone raises a new decision (says "decision:" or "open question:"), add it to DECISIONS.md using the DEC-NNN format with:
      - Timestamp (ET)
