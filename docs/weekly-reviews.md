@@ -12,13 +12,17 @@
 
 ### Before Each Meeting (Monday morning)
 
-Everyone drops a quick status in Slack:
+The agent posts a status check at 8am PT tagging each DRI:
+- **@megantong** — Eng status
+- **@trevorluong** — Product status
+- **@gbalestraci** — Design status
 
-- **Color:** 🟢 Green (on track) / 🟡 Yellow (at risk) / 🔴 Red (blocked)
-- **One sentence:** What moved since last week
-- **One sentence:** What's blocking or at risk
+Each person replies in the thread with:
+1. 🟢 / 🟡 / 🔴 (green = on track, yellow = at risk, red = blocked)
+2. One sentence: what moved since last week
+3. One sentence: what's blocking or at risk
 
-> No special format needed. Just post in the channel. The agent picks it up. When in doubt, show more risk, not less.
+> Replies are captured automatically and synced to the project docs. When in doubt, show more risk, not less.
 
 ### During the Meeting
 

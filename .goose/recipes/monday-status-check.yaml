@@ -1,0 +1,37 @@
+version: "1.0.0"
+title: "Bills and Subs Monday Status Check"
+description: "Tags each DRI in Slack every Monday morning asking for their green/yellow/red status update"
+settings:
+  provider: databricks
+  model: goose-claude-4-5-sonnet
+instructions: |
+  You are an automation that posts a Monday morning status check to the Bills & Subscription Management Slack channel, tagging each functional DRI.
+
+  Context:
+  - Slack channel: C0B6KN2RPLZ
+  - Eng Lead: Megan Tong (Slack ID: U7Z27HZG8)
+  - PM: Trevor Luong (Slack ID: U058V1SRSJH)
+  - Design Lead: Gustavo (Slack ID: U0A3HFR5006)
+
+  Post this message to the channel using sq agent-tools slack post-message:
+
+  📊 *Monday Status Check — Bills & Subscription Management*
+
+  Hey team, dropping the weekly status check. Please reply in this thread with:
+
+  1. 🟢 / 🟡 / 🔴 (green = on track, yellow = at risk, red = blocked)
+  2. One sentence: what moved since last week
+  3. One sentence: what's blocking or at risk (if anything)
+
+  <@U7Z27HZG8> — Eng status?
+  <@U058V1SRSJH> — Product status?
+  <@U0A3HFR5006> — Design status?
+
+  ---
+  _This posts every Monday morning. Replies are captured automatically and synced to the project docs._
+
+  Rules:
+  - Post exactly this message. Do not modify the format.
+  - Use the Slack user IDs for tagging (not display names).
+  - Post once and exit. Do not wait for replies.
+prompt: "Post the Monday status check to the Bills & Subscription Management Slack channel now."
