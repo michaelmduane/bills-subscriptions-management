@@ -9,12 +9,17 @@ A bills and subscription management hub that helps Cash App Card customers conso
 ```
 bills-subscriptions-management/
 ├── README.md                    # This file — project overview
+├── HOW-WE-WORK.md              # Project mechanics, workflows, automation
 ├── PRD.md                       # Product Requirements Document
 ├── DECISIONS.md                 # Key decision log (synced from Slack)
 ├── NOTES.md                     # Ongoing project notes (synced from Slack)
 └── docs/
-    └── scope-options.md         # Cycle 2 scope options for kickoff
+    ├── scope-options.md         # Cycle 2 scope options for kickoff
+    ├── weekly-reviews.md        # Weekly execution review agendas (6 weeks)
+    └── delivery-review.md       # Retro + delivery review structure
 ```
+
+> **New to the project?** Start with [HOW-WE-WORK.md](HOW-WE-WORK.md) — it explains how all the documentation, automation, meetings, and decision-making work together.
 
 ## Key Links
 
