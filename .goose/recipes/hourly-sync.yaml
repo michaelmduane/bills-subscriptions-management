@@ -41,7 +41,12 @@ instructions: |
   6. If any files changed, commit and push:
      cd /tmp/bills-subscriptions-prd && git add -A && git commit -m "sync: [brief description]" && git push origin main
 
-  7. If PRD.md was updated, sync back to Google Doc PRD tab
+  7. If status check replies are detected (replies to the Monday status check thread), update docs/weekly-reviews.md:
+     - Find the current week's section in the Status Record
+     - Fill in each person's status color, update, and blocker from their reply
+     - If meeting notes are posted after the meeting, capture those too
+
+  8. If PRD.md was updated, sync back to Google Doc PRD tab
 
   Rules:
   - Only Michael Duane can close decisions. If someone else approves but Michael hasn't, it stays OPEN.

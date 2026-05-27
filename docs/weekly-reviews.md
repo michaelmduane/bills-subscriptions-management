@@ -12,7 +12,7 @@
 
 ### Before Each Meeting (Monday morning)
 
-The agent posts a status check at 8am PT tagging each DRI:
+The agent posts a status check at 6am ET in Slack, tagging each DRI:
 - **@megantong** — Eng status
 - **@trevorluong** — Product status
 - **@gbalestraci** — Design status
@@ -22,7 +22,7 @@ Each person replies in the thread with:
 2. One sentence: what moved since last week
 3. One sentence: what's blocking or at risk
 
-> Replies are captured automatically and synced to the project docs. When in doubt, show more risk, not less.
+> Replies are captured automatically and synced here. When in doubt, show more risk, not less.
 
 ### During the Meeting
 
@@ -162,13 +162,79 @@ Each person replies in the thread with:
 
 ---
 
-## Status History
+---
 
-| Week | Date | Status | Key Update | Blocker/Risk |
-|------|------|--------|------------|--------------|
-| 1 | June 2 | — | Kickoff | — |
-| 2 | June 9 | | | |
-| 3 | June 16 | | | |
-| 4 | June 23 | | | |
-| 5 | June 30 | | | |
-| 6 | July 7 | | | |
+## Status Record
+
+> This section is populated automatically from Monday status check replies in Slack.
+> It serves as the running record of how the project tracked week over week.
+
+### Week 1 — June 2
+
+| Role | Status | Update | Blocker/Risk |
+|------|--------|--------|--------------|
+| Eng (@megantong) | | | |
+| PM (@trevorluong) | | | |
+| Design (@gbalestraci) | | | |
+
+**Meeting notes:** _To be captured from Slack after meeting_
+
+---
+
+### Week 2 — June 9
+
+| Role | Status | Update | Blocker/Risk |
+|------|--------|--------|--------------|
+| Eng (@megantong) | | | |
+| PM (@trevorluong) | | | |
+| Design (@gbalestraci) | | | |
+
+**Meeting notes:** _To be captured from Slack after meeting_
+
+---
+
+### Week 3 — June 16
+
+| Role | Status | Update | Blocker/Risk |
+|------|--------|--------|--------------|
+| Eng (@megantong) | | | |
+| PM (@trevorluong) | | | |
+| Design (@gbalestraci) | | | |
+
+**Meeting notes:** _To be captured from Slack after meeting_
+
+---
+
+### Week 4 — June 23
+
+| Role | Status | Update | Blocker/Risk |
+|------|--------|--------|--------------|
+| Eng (@megantong) | | | |
+| PM (@trevorluong) | | | |
+| Design (@gbalestraci) | | | |
+
+**Meeting notes:** _To be captured from Slack after meeting_
+
+---
+
+### Week 5 — June 30
+
+| Role | Status | Update | Blocker/Risk |
+|------|--------|--------|--------------|
+| Eng (@megantong) | | | |
+| PM (@trevorluong) | | | |
+| Design (@gbalestraci) | | | |
+
+**Meeting notes:** _To be captured from Slack after meeting_
+
+---
+
+### Week 6 — July 7
+
+| Role | Status | Update | Blocker/Risk |
+|------|--------|--------|--------------|
+| Eng (@megantong) | | | |
+| PM (@trevorluong) | | | |
+| Design (@gbalestraci) | | | |
+
+**Meeting notes:** _To be captured from Slack after meeting_
