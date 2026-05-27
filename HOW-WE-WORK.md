@@ -22,9 +22,8 @@
 |------|-------|---------|
 | **GitHub repo** | [michaelmduane/bills-subscriptions-management](https://github.com/michaelmduane/bills-subscriptions-management) | Source of truth for all project documentation |
 | **Google Doc** | [Bills & Subscription Management PRD](https://docs.google.com/document/d/1HFQI0EEDLRI-xPKDc_L2BPADH1731zPiKELZIw3t790/edit) | Readable companion (5 tabs) |
-| **Slack channel** | [#cycle-to-build-subscriptions](https://square.enterprise.slack.com/archives/C0B6KN2RPLZ) | Day-to-day communication, decisions, updates |
 | **Figma** | [Bills & Subscriptions Manager](https://www.figma.com/design/gSiPlvN2nIjAMVtMysu345/Bills---Subscriptions-Manager?node-id=3-3) | Design source of truth |
-| **Lookout** | TBD | Weekly status submission |
+| **Slack channel** | [#cycle-2-bills-subscriptions](https://square.enterprise.slack.com/archives/C0B6KN2RPLZ) | Status updates, decisions, discussion |
 
 ### GitHub Repo Structure
 
@@ -152,7 +151,7 @@ Google Doc synced from GitHub
 
 | When | Who | What |
 |------|-----|------|
-| **Monday 10am PT** | PM (Trevor) | Submit status to Lookout |
+| **Monday morning** | Everyone | Drop status in Slack (green/yellow/red + 1 sentence) |
 | **Monday meeting** | Full squad | Review status, unblock, decide |
 | **After meeting** | Anyone | Post notes/decisions to Slack |
 | **Hourly** | Agent | Syncs Slack → GitHub → Google Doc |
@@ -172,7 +171,7 @@ Google Doc synced from GitHub
 Use the "Weekly Reviews" tab to:
 - **Before:** Check the agenda for that week's focus areas
 - **During:** Take live notes in the Status History table
-- **After:** Confirm decisions made, update status, note action items
+- **After:** Post decisions/notes in Slack — agent captures them automatically
 
 ---
 

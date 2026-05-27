@@ -4,24 +4,21 @@
 
 **When:** Every Monday, 6 weeks (June 2 – July 7, 2026)
 **Who:** Trevor Luong (PM), Megan Tong (Eng), Gustavo (Design), Michael Duane (DRI)
-**Format:** 30 min. Status submitted to Lookout by 10am PT Monday. Meeting focuses on risks, decisions, and unblocking.
+**Format:** 30 min. Status dropped in Slack by Monday morning. Meeting focuses on risks, decisions, and unblocking.
 
 ---
 
 ## How This Works
 
-### Before Each Meeting (by 10am PT Monday)
+### Before Each Meeting (Monday morning)
 
-The PM (Trevor) submits to Lookout:
+Everyone drops a quick status in Slack:
 
-| Field | What to write |
-|-------|---------------|
-| **Status** | 🟢 Green (on track) / 🟡 Yellow (at risk) / 🔴 Red (blocked) |
-| **Update** | 1-2 sentences on what moved from last week |
-| **Blocker/Risk** | What is slowing us down or challenging our ability to hit outcomes? |
-| **Leadership Ask** | What input, decision, resource, or trade-off do we need? |
+- **Color:** 🟢 Green (on track) / 🟡 Yellow (at risk) / 🔴 Red (blocked)
+- **One sentence:** What moved since last week
+- **One sentence:** What's blocking or at risk
 
-> Blank defaults to Yellow. Status is a signal, not a score — when in doubt, show more risk, not less.
+> No special format needed. Just post in the channel. The agent picks it up. When in doubt, show more risk, not less.
 
 ### During the Meeting
 
@@ -48,7 +45,7 @@ The PM (Trevor) submits to Lookout:
 
 **1. Cycle Purpose & Operating Rhythm (5 min)**
 - Remind team of execution review purpose and cadence
-- Confirm Lookout is connected and status submission process is clear
+- Confirm weekly status process (Slack by Monday morning)
 
 **2. Scope Decision (15 min)** 🔓 OPEN DECISION
 - Present three scope options (see Cycle 2 Scope tab):
@@ -163,11 +160,11 @@ The PM (Trevor) submits to Lookout:
 
 ## Status History
 
-| Week | Date | Status | Key Update | Blocker/Risk | Leadership Ask |
-|------|------|--------|------------|--------------|----------------|
-| 1 | June 2 | — | Kickoff | — | Scope decision |
-| 2 | June 9 | | | | |
-| 3 | June 16 | | | | |
-| 4 | June 23 | | | | |
-| 5 | June 30 | | | | |
-| 6 | July 7 | | | | |
+| Week | Date | Status | Key Update | Blocker/Risk |
+|------|------|--------|------------|--------------|
+| 1 | June 2 | — | Kickoff | — |
+| 2 | June 9 | | | |
+| 3 | June 16 | | | |
+| 4 | June 23 | | | |
+| 5 | June 30 | | | |
+| 6 | July 7 | | | |
