@@ -84,15 +84,23 @@ An AI agent (Goose) runs two scheduled automations for this project:
 - Michael Duane (@michaelduane) responds with approval language: "approved", "let's go with", "confirmed", "yes ship it", "agreed", "+1 let's do it"
 - Michael reacts with ✅ to a decision thread
 
-### 2. Monday Status Check (8am PT, Mondays)
+### 2. Monday Status Check (6am ET, Mondays)
 
 **What it does:**
 - Posts a status check message to the Slack channel
 - Tags each functional DRI by name: Eng (@megantong), PM (@trevorluong), Design (@gbalestraci)
 - Asks each to reply in-thread with green/yellow/red + one sentence update
-- Replies are picked up by the hourly sync and captured in NOTES.md
 
-### 3. Daily Decisions Bot (9am PT, weekdays)
+### 3. Monday Meeting Agenda (8am ET, Mondays)
+
+**What it does:**
+- Reads the DRI status replies from the 6am thread
+- Reads all OPEN decisions from DECISIONS.md
+- Extracts discussion topics from DRI updates (blockers, questions, risks, things that need alignment)
+- If a DRI raises something that needs a decision, adds it to DECISIONS.md as OPEN
+- Posts a synthesized meeting agenda to the channel with: topics from updates + open decisions + standing items
+
+### 4. Daily Decisions Bot (9am PT, weekdays)
 
 **What it does:**
 - Reads `DECISIONS.md` for all OPEN decisions
@@ -159,9 +167,10 @@ Google Doc synced from GitHub
 
 | When | Who | What |
 |------|-----|------|
-| **Monday 8am PT** | Agent | Posts status check, tags each DRI |
+| **Monday 6am ET** | Agent | Posts status check, tags each DRI |
 | **Monday morning** | Eng, PM, Design | Reply in thread with 🟢/🟡/🔴 + 1 sentence |
-| **Monday meeting** | Full squad | Review status, unblock, decide |
+| **Monday 8am ET** | Agent | Reads replies + open decisions, posts meeting agenda |
+| **Monday meeting** | Full squad | Work through the agenda — topics, decisions, unblocking |
 | **After meeting** | Anyone | Post notes/decisions to Slack |
 | **Hourly** | Agent | Syncs Slack → GitHub → Google Doc |
 

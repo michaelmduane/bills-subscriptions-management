@@ -30,10 +30,10 @@ instructions: |
   <@U0A3HFR5006> — Design status?
 
   ---
-  _This posts every Monday morning. Replies are captured automatically and synced to the project docs._
+  _Replies are captured automatically. Meeting agenda will be posted at 8am ET based on your updates._
 
   Rules:
-  - Post exactly this message. Do not modify the format.
+  - Always prefix with "🤖 [Bills Bot]" on its own line.
   - Use the Slack user IDs for tagging (not display names).
   - Post once and exit. Do not wait for replies.
 prompt: "Post the Monday status check to the Bills & Subscription Management Slack channel now."
