@@ -1,7 +1,7 @@
 # Bills & Subscription Management: Scope Options
 
 > For Cycle 2 Kickoff Discussion
-> Team: Michael Duane (PM), Megan Tong (Eng), Gustavo (Design)
+> Team: Michael Duane (DRI), Trevor Luong (PM), Megan Tong (Eng), Gustavo (Design)
 
 ---
 

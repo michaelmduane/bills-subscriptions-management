@@ -1,7 +1,8 @@
 ---
 title: Bills & Subscription Management
 status: draft
-author: "@michaelduane"
+author: "@trevorluong"
+dri: "@michaelduane"
 reviewers:
   - Megan Tong (Eng lead)
   - Gustavo (Design lead)
@@ -50,7 +51,7 @@ Cash App Card customers lack a unified view of their recurring financial obligat
   - **Direct deposit customers** who already fund Cash App but still pay most bills from another account
   - **Cost-conscious customers** who want to identify and eliminate unnecessary subscriptions
 
-- **Internal users:** Card product, engineering, design, data, partnerships (Knot), and support teams.
+- **Internal users:** Card product (PM: Trevor Luong), engineering, design, data, partnerships (Knot), and support teams.
 
 ## Hypothesis
 

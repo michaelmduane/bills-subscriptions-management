@@ -33,7 +33,7 @@ Each decision follows this structure:
 
 **Rationale:** Option B balances shipping velocity with customer value. Option A risks the "read-only dashboard" problem. Option C is the full vision but may be too large for one cycle.
 
-**Decided by:** Michael Duane (PM)
+**Decided by:** Michael Duane (DRI), Trevor Luong (PM)
 
 **Status:** Pending team alignment at kickoff
 
