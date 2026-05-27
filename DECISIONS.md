@@ -13,6 +13,25 @@
 
 ## Open Decisions
 
+### 2026-05-27 — Feature Access: Card Customers Only or Broader?
+
+**Context:** Bills & Subscription Management could be scoped to Cash App Card customers only (since it's a Card feature managing card-based payments), or it could be made available to a broader set of Cash App users (e.g., anyone with a linked debit or direct deposit). This affects addressable market, complexity, and positioning.
+
+**Options considered:**
+- Card customers only (tightest scope, clearest value prop)
+- Card + Direct Deposit customers (broader, but still funded accounts)
+- All Cash App users (broadest reach, but may not have card-based payments to manage)
+
+**Decision:** TBD (pending DRI approval)
+
+**Opened by:** Michael Duane
+
+**Slack thread:** https://sq-block.slack.com/archives/C0B6KN2RPLZ/p1779916566268059
+
+**Status:** 🔓 OPEN
+
+---
+
 ### 2026-05-27 — Cycle 2 MVP Scope
 
 **Context:** The full vision has three layers (Hub + Knot Linking, Management Actions, Bill-Specific Auto-Reload). We need to decide what ships in Cycle 2's 6-week window.
