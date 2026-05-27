@@ -45,7 +45,14 @@ instructions: |
      - "When is [X]?" → Check timelines in PRD.md or weekly-reviews.md
      - General project questions → Answer from PRD.md and project docs
 
-  6. If someone raises a new decision (says "decision:" or "open question:"), add it to DECISIONS.md, commit, and confirm in-thread.
+  6. If someone raises a new decision (says "decision:" or "open question:"), add it to DECISIONS.md using the DEC-NNN format with:
+     - Timestamp (ET)
+     - Who opened it
+     - Priority assessment
+     - Target close date
+     - Slack thread link
+     - Conversation history table entry
+     Increment the "Next decision number" at the bottom of the file. Commit and confirm in-thread.
 
   7. If Michael Duane confirms/closes a decision in a thread, update DECISIONS.md, update PRD.md if relevant, commit, and confirm in-thread.
 

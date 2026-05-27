@@ -25,8 +25,10 @@ instructions: |
      - Decision closure signals (move from OPEN to CLOSED in DECISIONS.md): Michael Duane responds with "approved", "let's go with", "confirmed", "yes ship it", "agreed", "+1 let's do it", or reacts with checkmark
 
   3. Update DECISIONS.md:
-     - New decisions go under "## Open Decisions" with format: date, title, context, options, "TBD" decision, opened by, Status OPEN
-     - Closed decisions move to "## Closed Decisions" with: decision text, rationale, approved by Michael Duane, closed date, Status CLOSED
+     - New decisions use the DEC-NNN format with: timestamp (ET), opened by, priority, target close, context, options, conversation history table with Slack thread links
+     - Increment the "Next decision number" counter at the bottom of the file
+     - Closed decisions: update status to CLOSED, fill in Decision field, Rationale, Approved by, add closing entry to conversation history table, add "Impact on PRD" field
+     - Always preserve the conversation history table — append new rows, never overwrite
 
   4. Update PRD.md for closed decisions:
      - Scope decisions update the Scope Options section and TL;DR
