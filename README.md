@@ -32,8 +32,8 @@ bills-subscriptions-management/
 | Role | Person |
 | --- | --- |
 | PM / DRI | Michael Duane (@michaelduane) |
-| Eng Lead | Megan Tong |
-| Design Lead | Gustavo |
+| Eng Lead | Megan Tong (@megantong)| 
+| Design Lead | Gustavo (@gbalestraci|
 
 ## Status
 
