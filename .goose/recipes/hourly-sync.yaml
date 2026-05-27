@@ -50,4 +50,5 @@ instructions: |
   - PRD edits should be minimal and surgical.
   - If unsure whether something is a decision vs a note, make it a note.
   - If there are no new messages and no doc changes, do nothing and exit.
+  - When replying in Slack threads (e.g. confirming a decision was captured), always start with "🤖 [Bills Bot]" on its own line so the team knows it is automated and not Michael posting manually.
 prompt: "Run the hourly sync now. Check Slack for new messages in the last hour, check Google Doc for edits, and update GitHub accordingly."
