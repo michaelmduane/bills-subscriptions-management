@@ -15,14 +15,26 @@
       "timestamp": "2026-05-27T20:58:46.522347",
       "user": "U8Q0ZV12R",
       "question": "set up a new project"
+    },
+    {
+      "timestamp": "2026-05-27T21:07:44.854189",
+      "user": "U8Q0ZV12R",
+      "question": "what do you do to make cycle development easier for humans?"
+    },
+    {
+      "timestamp": "2026-05-27T21:16:34.858340",
+      "user": "U8Q0ZV12R",
+      "question": "you're not listening to me"
     }
   ],
-  "repeated_questions": {},
+  "repeated_questions": {
+    "other": 2
+  },
   "thumbs_down": [],
   "interaction_stats": {
-    "total_mentions": 4,
-    "total_responses": 4,
-    "fallback_responses": 3,
+    "total_mentions": 9,
+    "total_responses": 9,
+    "fallback_responses": 5,
     "decisions_captured": 0,
     "decisions_closed": 0
   }
