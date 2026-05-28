@@ -20,11 +20,15 @@ instructions: |
 
   Steps:
 
-  1. Read recent messages from the channel (last 10 minutes):
+  1. Read recent messages from BOTH channels (last 10 minutes):
      sq agent-tools slack read-channels --channels C0B6KN2RPLZ --newer-than PT10M
+     sq agent-tools slack read-channels --channels C0B6KNC9UP3 --newer-than PT10M
 
   2. Look for any messages that @mention the bot (contain <@U0B6N3EQVHP>) that do NOT already have a reply from the bot.
      For each such message, read its thread to check if Cycle Bot already replied.
+     IMPORTANT: Also check THREAD REPLIES — not just top-level messages. If a message has replies,
+     read the thread (sq agent-tools slack read-thread --channel [CH] --thread-ts [TS]) and check
+     for @mentions in thread replies that haven't been answered.
 
   3. If there are unresponded @mentions, respond to each one in-thread using curl:
      curl -s -X POST https://slack.com/api/chat.postMessage -H "Authorization: Bearer $GOOSE_SLACK_BOT_TOKEN" -H "Content-Type: application/json" -d '{"channel": "C0B6KN2RPLZ", "thread_ts": "[message_ts]", "text": "[response]"}'
@@ -90,4 +94,9 @@ instructions: |
   - If no @mentions found in the last 10 minutes, exit silently.
   - Post as Cycle Bot using curl with $GOOSE_SLACK_BOT_TOKEN, never sq agent-tools slack.
   - Use Slack formatting: *bold*, _italic_, bullet points with •
+  - Use emojis for section headers (📊, 🎯, 💡, 🔓, 🚨, 📅, 🔗, ✅)
+  - Use --- for visual section breaks in longer responses
+  - Include relevant links as Slack links: <URL|display text>
+  - Use code blocks (```) for tables or structured data
+  - Keep responses visually scannable — no walls of text
 prompt: "Check for any @mentions of Cycle Bot in the last 10 minutes and respond to them."
