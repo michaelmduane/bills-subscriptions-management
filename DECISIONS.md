@@ -213,4 +213,37 @@ When adding a new decision, use this format:
 ---
 
 *Decisions are captured automatically from Slack by Cycle Bot. The daily bot posts open decisions every weekday at 9am PT.*
-*Next decision number: DEC-006*
+### DEC-006 — North Star Metric for Bills & Subscription Management
+
+| Field | Value |
+|-------|-------|
+| Opened | 2026-05-27 |
+| Closed | 2026-05-28 |
+| Owner | Michael Duane (DRI) |
+| Priority | High |
+| Status | ✅ CLOSED |
+
+**Context:** We needed to confirm the primary success metric for this workstream to ensure all feature decisions align.
+
+**Options considered:**
+- Recurring card GPV per customer (monthly)
+- Number of bills consolidated
+- Payment success rate improvement
+- Customer retention / churn reduction
+
+**Decision:** Recurring card GPV per customer (monthly) is the north star.
+
+**Rationale:** This is the most comprehensive metric — it captures both consolidation (more recurring txns on Card) and funding success (fewer declines). Every feature lever (Knot linking, auto-reload, hub visibility) flows through this single metric.
+
+**Baseline:** $38.94/mo per recurring-active customer (1.3 settled recurring txns/mo)
+
+**Conversation history:**
+
+| Date | Who | What | Link |
+|------|-----|------|------|
+| 2026-05-27 | Michael Duane | Raised metric goals as open decision | Slack |
+| 2026-05-28 | Michael Duane | "Let's use recurring GPV as the primary goal" | [Thread](https://sq-block.slack.com/archives/C0B6KN2RPLZ/p1779983264686979) |
+
+---
+
+*Next decision number: DEC-007*
