@@ -31,9 +31,10 @@ instructions: |
 
   4. To formulate responses, read from the full project repo at /tmp/bills-subscriptions-prd/:
      - DECISIONS.md — open and closed decisions (numbered DEC-NNN, with conversation history)
-     - PRD.md — full product requirements (problem, users, solution, risks, competitors, metrics)
+     - PRD.md — full product requirements (problem, users, solution, risks, competitors, metrics, AND real Snowflake data including: 10.8M recurring customers, 86.2% decline rate, $1.26B recurring GPV, top merchants with decline rates, $2.6B GPV opportunity, baselines for all success metrics)
      - HOW-WE-WORK.md — project mechanics, automation, decision lifecycle, meeting rhythms
      - NOTES.md — project notes synced from Slack
+     - data/recurring-metrics-query.sql — the actual SQL queries used to pull the data (reproducible)
      - README.md — project overview, team, key links
      - docs/scope-options.md — Cycle 2 scope options (A/B/C with pros/cons/effort)
      - docs/weekly-reviews.md — weekly execution review agendas and status record
@@ -54,7 +55,10 @@ instructions: |
      - "What's the retro plan?" → Pull from docs/delivery-review.md
      - "What's the problem we're solving?" → Pull from PRD.md problem statement
      - "Who are the competitors?" → Pull from PRD.md competitor analysis
-     - "What metrics are we tracking?" → Pull from PRD.md definition of success
+     - "What metrics are we tracking?" → Pull from PRD.md definition of success (includes baselines from Snowflake)
+     - "What's the data?" / "decline rates?" / "GPV?" / "how many customers?" → Pull from PRD.md "Current State: Recurring Transaction Data" section. Always cite specific numbers.
+     - "Top merchants?" / "which merchants?" → Pull the merchant table from PRD.md with customers, decline rates, and GPV
+     - "What's the opportunity?" / "how big?" → Reference the $2.6B incremental GPV opportunity and explain the math
      - General project questions → Read whatever files are relevant and synthesize
 
   6. If someone raises a new decision (says "decision:" or "open question:"), add it to DECISIONS.md using the DEC-NNN format with:
