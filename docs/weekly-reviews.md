@@ -78,6 +78,7 @@ Each person replies in the thread with:
 - Empty state approach: What do customers see on day 1?
 - Knot merchant coverage: What % of our customers' common billers are supported?
 - Weekly cadence confirmation: Same time every Monday?
+- Ensure everyone has access to the design file _(added by Michael, 2026-05-27)_
 
 ---
 
