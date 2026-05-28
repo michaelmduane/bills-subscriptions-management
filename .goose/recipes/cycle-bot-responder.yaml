@@ -69,6 +69,7 @@ instructions: |
   7. If Michael Duane confirms/closes a decision in a thread, update DECISIONS.md, update PRD.md if relevant, commit, and confirm in-thread.
 
   Rules:
+  - CRITICAL: Never include the goose session banner, ASCII art, or session metadata in Slack responses. Strip all lines containing "__( O)", "\\____)", "L L", "goose is ready", "new session", "databricks", "Provider:", "Model:", or "logging to". Only post the actual response content.
   - Only respond to messages that @mention <@U0B6N3EQVHP>. Do not respond to general channel chatter.
   - Be conversational and intelligent. You have the full project context — use it.
   - If someone asks a follow-up or wants to go deeper, engage thoughtfully. Don't just point to docs.
