@@ -1,0 +1,29 @@
+{
+  "explicit_feedback": [],
+  "unanswered_questions": [
+    {
+      "timestamp": "2026-05-27T20:48:48.554001",
+      "user": "U8Q0ZV12R",
+      "question": "you alive?"
+    },
+    {
+      "timestamp": "2026-05-27T20:51:30.813879",
+      "user": "U8Q0ZV12R",
+      "question": "can you get this project set up?"
+    },
+    {
+      "timestamp": "2026-05-27T20:58:46.522347",
+      "user": "U8Q0ZV12R",
+      "question": "set up a new project"
+    }
+  ],
+  "repeated_questions": {},
+  "thumbs_down": [],
+  "interaction_stats": {
+    "total_mentions": 4,
+    "total_responses": 4,
+    "fallback_responses": 3,
+    "decisions_captured": 0,
+    "decisions_closed": 0
+  }
+}
