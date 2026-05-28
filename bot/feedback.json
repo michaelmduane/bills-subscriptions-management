@@ -28,12 +28,13 @@
     }
   ],
   "repeated_questions": {
-    "other": 2
+    "other": 2,
+    "agenda": 1
   },
   "thumbs_down": [],
   "interaction_stats": {
-    "total_mentions": 9,
-    "total_responses": 9,
+    "total_mentions": 10,
+    "total_responses": 10,
     "fallback_responses": 5,
     "decisions_captured": 0,
     "decisions_closed": 0

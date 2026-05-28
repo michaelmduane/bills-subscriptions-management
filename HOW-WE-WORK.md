@@ -218,6 +218,30 @@ The agent will never post to Slack on its own except for the daily decisions sum
 
 ---
 
+## Data & Metrics
+
+Cycle Bot has access to Snowflake and can pull real customer data for the project. The PRD includes a **"Current State: Recurring Transaction Data"** section with live metrics.
+
+**What's already in the PRD:**
+- Recurring decline rates (86.2% vs. 29.4% non-recurring)
+- Customer counts (10.8M recurring-active)
+- GPV baselines ($38.94/mo per customer)
+- Top recurring merchants with decline rates
+- GPV opportunity sizing (~$2.6B incremental)
+
+**Ask Cycle Bot about data:**
+- "What's the recurring decline rate?"
+- "How many customers have recurring charges?"
+- "What are the top recurring merchants?"
+- "What's the GPV opportunity?"
+- "Show me the data" (full summary)
+
+**SQL queries saved at:** `data/recurring-metrics-query.sql` — reproducible, auditable.
+
+**Fresh queries:** Ask Cycle Bot to run a new query if you need updated numbers or a different cut of the data.
+
+---
+
 ## Quick Reference
 
 | I want to... | Do this |
